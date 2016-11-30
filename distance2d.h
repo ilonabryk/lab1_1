@@ -1,3 +1,4 @@
+//lab1_1
 #ifndef DISTANCE2D_H
 #define DISTANCE2D_H
 

@@ -1,10 +1,12 @@
+//lab1_1
 #ifndef CIRCLE_H
 #define CIRCLE_H
+
 
 class circle
 {
 	private:
-		double x, y, r,distance2d;
+		double x, y, r;
 		
 	public:
 		circle();
@@ -14,7 +16,6 @@ class circle
 		bool isInsideOf(circle &circle1);
 		bool haveCommonPoint(circle &circle1);
 		friend void printCircle(circle &circle1);
-		friend void printCircle1(circle &circle1);
 };
 
 #endif
