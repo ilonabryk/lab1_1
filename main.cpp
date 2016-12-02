@@ -3,6 +3,7 @@
 #include <cmath>
 #include "circle.h"
 #include "distance2d.h"
+#include <windows.h>
 
 using namespace std;
 
@@ -53,6 +54,8 @@ int main(int argc, char *argv[]) {
 	
 	delete circle2;
 	delete circle3;
+	
+	system("pause");
 	
 	return 0;
 }
